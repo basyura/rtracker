@@ -23,9 +23,10 @@ if (isDev) {
 const createWindow = () => {
   const mainWindow = new BrowserWindow({ width: 200, height: 300 });
 
-  if (isDev) mainWindow.webContents.openDevTools({ mode: 'detach' });
+  // if (isDev) mainWindow.webContents.openDevTools({ mode: 'detach' });
+
   mainWindow.loadFile('dist/index.html');
-  mainWindow.setAlwaysOnTop(true);
+  // mainWindow.setAlwaysOnTop(true);
   mainWindow.setPosition(-300, 0);
 };
 

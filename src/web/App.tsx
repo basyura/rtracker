@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.scss';
+import { TaskList } from './TaskList';
 
 export const App = (): JSX.Element => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      <TaskList></TaskList>
     </div>
   );
 };
