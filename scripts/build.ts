@@ -2,7 +2,7 @@ import { build } from 'electron-builder';
 
 build({
   config: {
-    productName: 'rtracker',
+    productName: 'RTracker',
     copyright: '',
     files: ['dist/**/*'],
     directories: {
@@ -36,9 +36,9 @@ build({
         target: 'default',
       },
       extendInfo: {
-        CFBundleName: 'Electron',
-        CFBundleDisplayName: 'Electron',
-        CFBundleExecutable: 'Electron',
+        CFBundleName: 'RTracker',
+        CFBundleDisplayName: 'RTracker',
+        CFBundleExecutable: 'RTracker',
         CFBundlePackageType: 'APPL',
         CFBundleDocumentTypes: [
           {
